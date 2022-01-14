@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-14T16:59:19 IST" name="Suite" finished-at="2022-01-14T16:59:35 IST" duration-ms="15729">
+    <groups>
+    </groups>
+    <test started-at="2022-01-14T16:59:19 IST" name="Test1" finished-at="2022-01-14T16:59:28 IST" duration-ms="8974">
+      <class name="Academy.ValidateNavigationBar">
+        <test-method is-config="true" signature="prerequisite()[pri:0, instance:Academy.ValidateNavigationBar@135606db]" started-at="2022-01-14T16:59:19 IST" name="prerequisite" finished-at="2022-01-14T16:59:27 IST" duration-ms="7687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method signature="BasePageNavigation()[pri:0, instance:Academy.ValidateNavigationBar@135606db]" started-at="2022-01-14T16:59:27 IST" name="BasePageNavigation" finished-at="2022-01-14T16:59:27 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.ValidateNavigationBar@135606db]" started-at="2022-01-14T16:59:27 IST" name="teardown" finished-at="2022-01-14T16:59:28 IST" duration-ms="1170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.ValidateNavigationBar -->
+    </test> <!-- Test1 -->
+    <test started-at="2022-01-14T16:59:19 IST" name="Test" finished-at="2022-01-14T16:59:28 IST" duration-ms="9143">
+      <class name="Academy.ValidateTitle">
+        <test-method is-config="true" signature="prerequisite()[pri:0, instance:Academy.ValidateTitle@5d43661b]" started-at="2022-01-14T16:59:19 IST" name="prerequisite" finished-at="2022-01-14T16:59:26 IST" duration-ms="7208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method signature="BasePageNavigation()[pri:0, instance:Academy.ValidateTitle@5d43661b]" started-at="2022-01-14T16:59:26 IST" name="BasePageNavigation" finished-at="2022-01-14T16:59:27 IST" duration-ms="106" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED COURSES2] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COURSES2] but found [FEATURED COURSES]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at Academy.ValidateTitle.BasePageNavigation(ValidateTitle.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.ValidateTitle@5d43661b]" started-at="2022-01-14T16:59:27 IST" name="teardown" finished-at="2022-01-14T16:59:28 IST" duration-ms="970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.ValidateTitle -->
+    </test> <!-- Test -->
+    <test started-at="2022-01-14T16:59:19 IST" name="Test2" finished-at="2022-01-14T16:59:35 IST" duration-ms="15729">
+      <class name="Academy.HomePage">
+        <test-method is-config="true" signature="prerequisite()[pri:0, instance:Academy.HomePage@6a47b187]" started-at="2022-01-14T16:59:19 IST" name="prerequisite" finished-at="2022-01-14T16:59:23 IST" duration-ms="3253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method signature="BasePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.HomePage@6a47b187]" started-at="2022-01-14T16:59:23 IST" name="BasePageNavigation" data-provider="GetData" finished-at="2022-01-14T16:59:28 IST" duration-ms="5664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Unrestricted user@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Unrestricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasePageNavigation -->
+        <test-method signature="BasePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.HomePage@6a47b187]" started-at="2022-01-14T16:59:28 IST" name="BasePageNavigation" data-provider="GetData" finished-at="2022-01-14T16:59:31 IST" duration-ms="2538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Restricted user@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BasePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.HomePage@6a47b187]" started-at="2022-01-14T16:59:31 IST" name="teardown" finished-at="2022-01-14T16:59:35 IST" duration-ms="4179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
